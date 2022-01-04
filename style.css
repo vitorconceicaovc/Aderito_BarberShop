@@ -500,3 +500,11 @@ hr{
     cursor: pointer;
     font-size: 18px;
 }
+@media screen and (max-width: 900px) {
+    .contact-map {
+        flex: 80%;
+    }
+    .contact-form {
+        flex: 20%;
+    }
+}
