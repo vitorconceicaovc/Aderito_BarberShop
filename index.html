@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
     <!-- Banner Section -->
@@ -22,7 +23,7 @@
             <p>Barbershop</p>
             <div class="banner-btn">
                 <a href="#marcacao"><span></span>Pré Marcação</a>
-                <a href="#"><span></span>Read More</a>
+                <a href="#portfolio"><span></span>Portfolio</a>
             </div>
         </div>
     </section>
@@ -34,10 +35,10 @@
         <nav>
             <ul>
                 <li><a href="#banner">HOME</a></li>
-                <li><a href="#feature">FEATURES</a></li>
-                <li><a href="#service">SERVICES</a></li>
-                <li><a href="#testimonial">TESTIMONIAL</a></li>
-                <li><a href="#footer">MEET US</a></li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#comentarios">COMENTÁRIOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
     </div>
@@ -50,10 +51,10 @@
     <!-- Menu Button-->
 
     <!--Features content-->
-    <section id="feature">
+    <section id="servicos">
         <div class="title-text">
-            <p>FEATURES</p>
-            <h1>Why our Clients Choose Us</h1>
+            <p>SERVIÇOS</p>
+            <h1>Nós oferecemos o melhor</h1>
         </div>
         <div class="feature-box">
             <div class="features">
@@ -107,10 +108,10 @@
     <!--Features content-->
 
     <!-- Services Section-->
-    <section id="service">
+    <section id="portfolio">
         <div class="title-text">
-            <p>SERVICES</p>
-            <h1>We Provide Best</h1>
+            <p>Portfolio</p>
+            <h1>Nós oferecemos o melhor</h1>
         </div>
         <div class="service-box">
             <div class="single-service">
@@ -162,10 +163,10 @@
     <!-- Services Section-->
 
     <!-- Testomonial Section -->
-    <section id="testimonial">
+    <section id="comentarios">
         <div class="title-text">
-            <p>TESTIMONIAL</p>
-            <h1>What Customer Says</h1>
+            <p>COMENTÁRIOS</p>
+            <h1>O que os clientes dizem</h1>
         </div>
 
         <div class="testimonial-row">
@@ -174,13 +175,12 @@
                     <img src="Hair_img/img-1.jpg" alt="">
                     <div class="user-info">
                         <h4>Martin</h4>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><br>
                         <small>@martin_005</small>
                     </div>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore quia neque quos 
-                    voluptatem dolores qui iste necessitatibus vitae asperiores maiores vel quibusdam 
-                    libero dolorum magnam alias ad est error, nesciunt ipsam rem fugiat.
+                    Profissional top! Serviço qualificado! Recomendo a 100%
                 </p>
             </div>
             <div class="testimonial-col">
@@ -188,13 +188,12 @@
                     <img src="Hair_img/img-2.jpg" alt="">
                     <div class="user-info">
                         <h4>Scarlett</h4>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><br>
                         <small>@martin_005</small>
                     </div>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore quia neque quos 
-                    voluptatem dolores qui iste necessitatibus vitae asperiores maiores vel quibusdam 
-                    libero dolorum magnam alias ad est error, nesciunt ipsam rem fugiat.
+                    Brabo
                 </p>
             </div>
             <div class="testimonial-col">
@@ -202,13 +201,12 @@
                     <img src="Hair_img/img-3.jpg" alt="">
                     <div class="user-info">
                         <h4>Tony</h4>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>
                         <small>@martin_005</small>
                     </div>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore quia neque quos 
-                    voluptatem dolores qui iste necessitatibus vitae asperiores maiores vel quibusdam 
-                    libero dolorum magnam alias ad est error, nesciunt ipsam rem fugiat.
+                    Muito bom!
                 </p>
             </div>
         </div>
@@ -216,7 +214,7 @@
     <!-- Testomonial Section -->
 
     <!--Footer Section-->
-    <section  >
+    <section >
         <div class="title-text">
             <p>CONTACTO</p>
             <h1>Pré Marcação</h1>
@@ -231,14 +229,14 @@
                 <form action="https://formsubmit.co/vitoraixa@hotmail.com" method="POST">
                     <input type="text" name="nome" placeholder="Nome" class="contact-form-txt" required>
                     <input type="text" name="email" placeholder="Email" class="contact-form-txt" required>
-                    <input type="datetime-local" name="Data de marcação" class="contact-form-txt" required>
+                    <input type="datetime-local" name="Data de marcação" class="contact-form-txt"  required>
                     <textarea placeholder="Menssagem" name="Menssagem" class="contact-form-txtarea" ></textarea>
                     <input type="submit" name="enviar" class="btn">
                 </form>
             </div>
         </div>
 
-        <div class="footer-row">
+        <div class="footer-row" id="contacto">
             <div class="footer-left">
                 <h1>Horario</h1>
                 <p><i class="fas fa-user-clock"></i> Segunda a sexta - 10:00 a 20:00</p>
