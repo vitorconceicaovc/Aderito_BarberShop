@@ -689,3 +689,7 @@ hr {
     padding: 70px 0px;
     min-height: 100vh;
 }
+
+.contact-form h1 {
+    color: #d1fdff;
+}
