@@ -687,5 +687,5 @@ hr {
 .section {
     width: 100%;
     padding: 70px 0px;
-    height: 100vh;
+    min-height: 100vh;
 }
