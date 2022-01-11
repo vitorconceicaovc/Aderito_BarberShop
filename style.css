@@ -693,3 +693,17 @@ hr {
 .contact-form h1 {
     color: #d1fdff;
 }
+
+
+/*slider*/
+
+.banner {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
